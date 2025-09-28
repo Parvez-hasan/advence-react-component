@@ -1,15 +1,18 @@
 import React from 'react'
 
 export const Link = ({link}) => {
-   console.log(link);
+  
     
   return (
-    <div>
+   
 
-         <ul>
-            <li><a href={link.path}>{link.label}</a></li>
-         </ul>
+        
+            <li className='lg:mr-2 px-4 hover:bg-amber-400 space-y-2 hover:text-black '>
+                <a href={link.path}>{link.label}</a>
+            </li>
 
-    </div>
+       
+
+   
   )
 }
