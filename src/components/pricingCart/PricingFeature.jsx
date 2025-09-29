@@ -2,7 +2,7 @@ import { CircleCheckBig } from 'lucide-react';
 import React from 'react'
 
 export const PricingFeature = ({feature}) => {
-    console.log(feature);
+   // console.log(feature);
     
   return (
     <div>
